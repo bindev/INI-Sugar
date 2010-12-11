@@ -1,4 +1,4 @@
-# INI Sugar
+# INI Sugar 1.0
 
 ## Description
 
@@ -18,6 +18,11 @@ NB: All *.ini files have INI language by default.
 Rename the main project directory to "INI.sugar" and double-click it, then restart
 Espresso.
 
+## Compatibility
+
+This sugar has been tested on Espresso 1.1.2
+
 ## License
 
 This software is released under a MIT license (see LICENSE file).
+
