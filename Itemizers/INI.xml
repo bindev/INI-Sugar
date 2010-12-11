@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<itemizer>
+    <recipe name="section.ini">
+        <class>ESBaseItem</class>
+        <selector>tag.ini:capture(name)</selector>
+    </recipe>
+</itemizer>

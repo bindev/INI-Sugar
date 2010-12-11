@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<syntax name="code.ini">
+    <zones>
+        <zone name="comment.block.ini">
+            <expression>;(.*)</expression>
+        </zone>
+        <zone name="tag.ini">
+            <expression>(\[)([^\]]*)(\]?)</expression>
+            <capture number="1" name="punctuation.definition.begin"/>
+            <capture number="2" name="name"/>
+            <capture number="3" name="punctuation.definition.end"/>
+        </zone>
+        <zone name="directive.ini">
+            <expression>^([^=]*)\s?(=?)\s?(.*)</expression>
+            <capture number="1" name="variable"/>
+            <capture number="2" name="operator"/>
+            <capture number="3" name="value">
+                <subzones>
+                    <include syntax="sourcecode.php" collection="literal.numeric" />
+                    <include syntax="sourcecode.php" collection="literal.string" />
+                    <include syntax="sourcecode.php" collection="keyword" />
+                </subzones>
+            </capture>
+        </zone>
+    </zones>
+</syntax>

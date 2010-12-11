@@ -1,0 +1,25 @@
+/*
+    @theme INI Placeholder
+    @placeholder ini
+*/
+
+@base {
+    background-color: #fff;
+}
+
+ini {
+    spell-check: disabled;
+}
+
+@base, ini, ini variable {
+    color: #24417a;
+}
+
+ini value keyword {
+    color: #4F9FCF;
+}
+
+ini value integer {
+    color: #6700b9;
+    background-color: #fbf2fe;
+}

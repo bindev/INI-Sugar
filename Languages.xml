@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <language id="net.bindev.language.ini">
+        <name>INI</name>
+        <root-zone>code.ini</root-zone>
+        <detectors>
+            <extension>ini</extension>
+        </detectors>
+    </language>
+    <meta>
+        <name>INI</name>
+        <author>Thierry B.</author>
+        <identifier>net.bindev.Sugar.INI</identifier>
+        <version>1.0</version>
+    </meta>
+</settings>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<action-recipes>
+    <snippet id="net.bindev.TextActions.INI.AutoPairSquareBrackets" category="hidden">
+        <title>Autopair Square Brackets</title>
+        <text-trigger key-equivalent="["></text-trigger>
+        <text>[$0]</text>
+        <syntax-context>ini, ini *</syntax-context>
+    </snippet>
+</action-recipes>
