@@ -11,9 +11,11 @@ specific features:
 - Ini sections navigating (Tools > Navigator)
 - Square brackets auto-pairing
 
+NB: All *.ini files have INI language by default.
+
 ## Installation
 
-Rename the main project directory to "INI.Sugar" and double-click it, then restart
+Rename the main project directory to "INI.sugar" and double-click it, then restart
 Espresso.
 
 ## License
