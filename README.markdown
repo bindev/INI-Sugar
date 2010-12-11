@@ -1,0 +1,21 @@
+# INI Sugar
+
+## Description
+
+INI Sugar is an [Espresso](http://macrabbit.com/espresso/) plugin for *.ini files.
+
+It adds the INI "language" to Espresso which contains the following
+specific features:
+
+- Syntax highlighting
+- Ini sections navigating (Tools > Navigator)
+- Square brackets auto-pairing
+
+## Installation
+
+Rename the main project directory to "INI.Sugar" and double-click it, then restart
+Espresso.
+
+## License
+
+This software is released under a MIT license (see LICENSE file).
